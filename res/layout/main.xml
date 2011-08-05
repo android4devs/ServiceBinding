@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:id="@+id/tvServiceControl"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="Service control"
+		android:textSize="18dp" />
+	<Button
+		android:id="@+id/btnStartService"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Start"
+		android:layout_gravity="center" />
+	<Button
+		android:id="@+id/btnStopService"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Stop"
+		android:layout_gravity="center" />
+	<EditText
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/etCustomMessage"
+		android:layout_marginTop="25dp"
+		android:hint="Custom message for service...">
+		<requestFocus></requestFocus>
+	</EditText>
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/btnSendCustomMessage"
+		android:text="Send custom message"></Button>
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="Show service operation counter"
+		android:id="@+id/btnShowServiceOperationCounter"></Button>
+</LinearLayout>
